@@ -1,0 +1,87 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/movie.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ghibli Film Favorites - News</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="css/movies.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+
+<div id="container">
+	
+  <header id="header">
+	  <img id="siteicon" src="images/walking_totoro_left.gif" width="500" height="391" alt=""/><h1>Ghibli Favorites</h1>
+  </header>
+  <nav id="navbar">
+      <a href="index.html">home</a> <a href="about.html">about</a> <a href="tickets.html">tickets</a> <a href="news.html">news</a> <a href="contact.html">contact</a>
+  </nav>
+  <aside id="aside">
+	  <h2><a href="index.html">&nbsp;Top Films&nbsp;</a></h2>
+      <p><a href="castle_in_the_sky.html">Castle in the Sky</a></p>
+	  <p><a href="howls_moving_castle.html">Howl's Moving Castle</a></p>
+	  <p><a href="kikis_delivery_service.html">Kiki's Delivery Service</a></p>
+	  <p><a href="my_neighbor_totoro.html">My Neighbor Totoro</a></p>
+	  <p><a href="porco_rosso.html">Porco Rosso</a></p>
+	  <p><a href="secret_world_of_arietty.html">Secret World of Arietty</a></p>
+<!--  <p><a href="only_yesterday.html">Only Yesterday</a></p>
+	  <p><a href="ponyo.html">Ponyo on the Cliff by the Sea</a></p>
+	  <p><a href="princess_mononoke.html">Princess Mononoke</a></p>
+	  <p><a href="the_wind_rises.html">The Wind Rises</a></p>
+	  <p><a href="whisper_of_the_heart.html">Whisper of the Heart</a></p>
+      <p><a href="when_marnie_was_there.html">When Marnie Was There</p>
+-->
+  </aside>
+  <!-- InstanceBeginEditable name="main" -->
+  <main id="main">
+<div id="maindiv">
+	  <h2>News</h2>
+	  <h3 class="floatleft">Studio Ghibli is now&nbsp;</h3><h3 id="ghibliage" class="floatleft"></h3>
+	
+	<h3 class="floatleft">&nbsp;Years old!</h3><h3 style="clear:left; "></h3> 
+  
+	<div class="newsitem">
+	<h4><a href="https://www.animenewsnetwork.com/news/2021-07-19/the-ghibli-museum-meets-10-million-yen-crowdfunding-goal-in-24-hours/.175253">Crowdfunding Campaign Keeps the Studio Ghibli Museum Open</a></h4>
+	<p>19 July 2019</p>
+	<p>The coronavirus pandemic has hit many public-facing institutions hard but it has been especially difficult for the museum sector. The Ghibli Museum, the museum dedicated to the anime of Studio Ghibli, surpassed its Furusato Choice crowdfunding goal of 10 million yen (approximately US$90,000) in less than 24 hours on Saturday. As of press time, the campaign has raised 21,912,735 yen (about US$199,262) from 2,808 donors.</p>
+
+	</div>
+	
+	<div class="newsitem">
+	<h4><a href="https://www.japantimes.co.jp/news/2022/01/28/national/studio-ghibli-theme-park/">Studio Ghibli theme park to open in Japan in November</a></h4>
+	<p>28 January 2022</p>
+	<p>A theme park based on the films of anime studio Studio Ghibli, renowned for titles including the Oscar-winning “Spirited Away,” will open in Aichi Prefecture on Nov. 1, the studio and local officials said Thursday.</p>
+	</div>
+
+	<div class="newsitem">
+	<h4><a href="https://www.timeout.com/tokyo/news/north-america-is-getting-an-8-month-ghibli-fest-from-april-2022-030722">North America is getting an 8-month Ghibli Fest from April 2022</a></h4>
+	<p>7 March 2022</p>
+	<p>As Japan gears up for the opening of the highly-anticipated Ghibli Park, fans in North America have something to look forward to as well. Studio Ghibli has just released the lineup for the 2022 Studio Ghibli Fest, which sees a number of the studio's classic films returning to theatres across the US and Canada.</p>
+	</div>
+	
+		
+	  </div>
+  </main>
+  <!-- InstanceEndEditable -->
+  <footer id="footer"><p>contact us: +65 1234 5678</p></footer>
+  
+</div>
+	
+</body>
+
+<script type="text/javascript">
+/* Calculate the age in years since Ghibli was first founded */
+window.onload=function() {
+  const d = new Date("June 15, 1985");
+  var ageDifMs = Date.now() - d;
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  let year = Math.abs(ageDate.getUTCFullYear() - 1970);
+  document.getElementById("ghibliage").innerHTML = year;
+}
+</script>
+
+<!-- InstanceEnd --></html>

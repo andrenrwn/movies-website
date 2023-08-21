@@ -1,0 +1,75 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/movie.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ghibli Film Favorites - Contact</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="css/movies.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+
+<div id="container">
+	
+  <header id="header">
+	  <img id="siteicon" src="images/walking_totoro_left.gif" width="500" height="391" alt=""/><h1>Ghibli Favorites</h1>
+  </header>
+  <nav id="navbar">
+      <a href="index.html">home</a> <a href="about.html">about</a> <a href="tickets.html">tickets</a> <a href="news.html">news</a> <a href="contact.html">contact</a>
+  </nav>
+  <aside id="aside">
+	  <h2><a href="index.html">&nbsp;Top Films&nbsp;</a></h2>
+      <p><a href="castle_in_the_sky.html">Castle in the Sky</a></p>
+	  <p><a href="howls_moving_castle.html">Howl's Moving Castle</a></p>
+	  <p><a href="kikis_delivery_service.html">Kiki's Delivery Service</a></p>
+	  <p><a href="my_neighbor_totoro.html">My Neighbor Totoro</a></p>
+	  <p><a href="porco_rosso.html">Porco Rosso</a></p>
+	  <p><a href="secret_world_of_arietty.html">Secret World of Arietty</a></p>
+<!--  <p><a href="only_yesterday.html">Only Yesterday</a></p>
+	  <p><a href="ponyo.html">Ponyo on the Cliff by the Sea</a></p>
+	  <p><a href="princess_mononoke.html">Princess Mononoke</a></p>
+	  <p><a href="the_wind_rises.html">The Wind Rises</a></p>
+	  <p><a href="whisper_of_the_heart.html">Whisper of the Heart</a></p>
+      <p><a href="when_marnie_was_there.html">When Marnie Was There</p>
+-->
+  </aside>
+  <!-- InstanceBeginEditable name="main" -->
+  <main id="main">
+<div id="maindiv">
+	  <h2>Contact Us</h2>
+	
+	<p>Submit the form below to subscribe to our newsletter.</p>
+	
+	<form action="/newsletter.php" method="post" class="newsletter">
+	<input type="first and last name" placeholder="first and last name">
+	<input type="telephone number" placeholder="telephone number">
+	<input type="e-mail" placeholder="e-mail">
+	<textarea name="questions or comments" id="q_and_c" cols="40" rows="10" placeholder="enter your questions and comments here"></textarea>
+	<input id="submitbutton" type="submit">
+	</form>
+	
+    <p>Contact us at your nearest Anime Club.<br>For questions, you may contact this address:<br>aan95a@acu.edu</p>
+</div>
+  </main>
+  <!-- InstanceEndEditable -->
+  <footer id="footer"><p>contact us: +65 1234 5678</p></footer>
+  
+</div>
+	
+</body>
+
+<script type="text/javascript">
+/* Calculate the age in years since Ghibli was first founded */
+window.onload=function() {
+  const d = new Date("June 15, 1985");
+  var ageDifMs = Date.now() - d;
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  let year = Math.abs(ageDate.getUTCFullYear() - 1970);
+  document.getElementById("ghibliage").innerHTML = year;
+}
+</script>
+
+<!-- InstanceEnd --></html>
