@@ -10,4 +10,4 @@ https://andrenrwn.github.io/movies-website/publish/
 
 # Sources
 
-Images are from various Studio Ghibli related sources, copyrighted and trademarked by their respective compani are used for educational purposes only (fair use).
+Images are from various Studio Ghibli related sources, copyrighted and trademarked by their respective companies and are used for educational purposes only (fair use).
